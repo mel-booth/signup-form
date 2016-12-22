@@ -1,6 +1,6 @@
 # signup-form
 
-## Basic sign up form design and functionality.
+### Basic sign up form design and functionality.
 
 * User selects a username and password
 * Username must contain at least 2 characters - letters or numbers only - will receive an alert if username doesn't match criteria
