@@ -1,0 +1,58 @@
+/*colour scheme:
+#cf6766 - pale crimson
+#30415d - indigo
+#031424 - ultramarine
+#8eaebd - light blue*/
+
+
+.signup-form {
+  position: fixed;
+  width: 30%;
+  height: 30%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 99999;
+  opacity:0;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.signup-form:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.signup-form div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.close {
+  background: #000000;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+.close:hover {
+  background: #cf6766;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
