@@ -10,9 +10,6 @@
   /*background-color: */
 
 }
-ul {
-
-}
 
 #login {
 
@@ -47,16 +44,55 @@ ul {
   /*transition: all 0.5s;*/
 }
 
-.loginbox {
+.tabs > li {
+  position: relative;
+  float: left;
+  width: 50%;
+  list-style: none;
+  text-align: center;
 
+}
+
+.tabs > li > a {
+  text-decoration: none;
+  font-size: 3em;
+  color: #8eaebd;
+  line-height: 3em;
+  padding: 15px;
+  display: block;
+  /*transition: all 0.5s;*/
+}
+
+.tabs > .active > a {
+  color: #cf6766;
+}
+
+.inputs-container {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.loginbox {
+  position: relative;
 
 }
 
 .signupbox {
-
+  position: relative;
 
 }
 
+input {
+  position: relative;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid #cf6766;
+  background-color: transparent;
+  font-size: 1.2em;
+  line-height: 3em;
+}
 
 footer {
   position: absolute;
