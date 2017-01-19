@@ -10,9 +10,6 @@
   /*background-color: */
 
 }
-ul {
-
-}
 
 #login {
 
@@ -47,13 +44,31 @@ ul {
   /*transition: all 0.5s;*/
 }
 
-.loginbox {
+.tabs > li {
+  position: relative;
+  float: left;
+  width: 50%;
+  list-style: none;
+  text-align: center;
 
+}
+
+.tabs > li > a {
+  text-decoration: none;
+  font-size: 3.5em;
+  color: #cf6766;
+  line-height: 3em;
+  padding: 15px;
+  display: block;
+}
+
+.loginbox {
+  position: relative;
 
 }
 
 .signupbox {
-
+  position: relative;
 
 }
 
