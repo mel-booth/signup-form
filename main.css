@@ -41,7 +41,13 @@
   align-items: center;
   background-color: #30415d;
   border-radius: 20px;
-  /*transition: all 0.5s;*/
+  transition: all 0.5s;
+}
+
+.login-cont {
+  position: relative;
+  float: left;
+  width: 100%;
 }
 
 .tabs > li {
@@ -55,16 +61,32 @@
 
 .tabs > li > a {
   text-decoration: none;
-  font-size: 3em;
+  font-size: 2.5em;
   color: #8eaebd;
   line-height: 3em;
-  padding: 15px;
+  padding: 10px;
   display: block;
-  /*transition: all 0.5s;*/
+  transition: all 0.5s;
 }
 
 .tabs > .active > a {
   color: #cf6766;
+}
+
+.underline {
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: #8eaebd;
+  height: 1px;
+}
+
+.active .underline {
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: #cf6766;
+  height: 1px;
 }
 
 .inputs-container {
@@ -72,6 +94,63 @@
   float: left;
   width: 100%;
   margin-top: 15px;
+}
+
+.form-input {
+  position: relative;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid #cf6766;
+  background-color: transparent;
+  font-size: 1.2em;
+  line-height: 3em;
+  outline: none;
+  color: #cf6766;
+  transition: all 0.5s;
+  height: 0px;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0;*/
+  display: none;
+}
+
+.active_input {
+  display: block;
+  opacity: 1;
+  margin: 5% 5%;
+  padding: 10px 0px;
+  height: 5px;
+}
+
+.form-input:focus {
+  border-bottom: 1px solid #8eaebd;
+}
+
+.inputs-container > input:nth-child(1){
+  transition-delay: 0.2s;
+}
+
+.inputs-container > input:nth-child(2){
+  transition-delay: 0.4s;
+}
+
+.inputs-container > input:nth-child(3){
+  transition-delay: 0.6s;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.log-sign-btn {
+  background-color: #cf6766;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  position: relative;
+  margin-top: 20px;
+  color: #fff;
 }
 
 .loginbox {
@@ -84,15 +163,11 @@
 
 }
 
-input {
-  position: relative;
+form {
+  margin: 2%;
   width: 90%;
-  border: none;
-  border-bottom: 1px solid #cf6766;
-  background-color: transparent;
-  font-size: 1.2em;
-  line-height: 3em;
 }
+
 
 footer {
   position: absolute;
