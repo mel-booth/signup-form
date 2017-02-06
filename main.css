@@ -41,7 +41,13 @@
   align-items: center;
   background-color: #30415d;
   border-radius: 20px;
-  /*transition: all 0.5s;*/
+  transition: all 0.5s;
+}
+
+.login-cont {
+  position: relative;
+  float: left;
+  width: 100%;
 }
 
 .tabs > li {
@@ -60,7 +66,7 @@
   line-height: 3em;
   padding: 10px;
   display: block;
-  /*transition: all 0.5s;*/
+  transition: all 0.5s;
 }
 
 .tabs > .active > a {
@@ -98,8 +104,9 @@
   background-color: transparent;
   font-size: 1.2em;
   line-height: 3em;
-
-  /*transition: all 0.5s;
+  outline: none;
+  color: #cf6766;
+  transition: all 0.5s;
   height: 0px;
   margin: 0px;
   padding: 0px;
@@ -132,8 +139,18 @@
 }
 
 .btn-container {
+  text-align: center;
+}
+
+.log-sign-btn {
+  background-color: #cf6766;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
   position: relative;
-  float: left;
+  margin-top: 20px;
+  color: #fff;
 }
 
 .loginbox {
