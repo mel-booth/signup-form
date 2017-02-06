@@ -90,6 +90,31 @@
   margin-top: 15px;
 }
 
+.form-input {
+  position: relative;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid #cf6766;
+  background-color: transparent;
+  font-size: 1.2em;
+  line-height: 3em;
+
+  /*transition: all 0.5s;
+  height: 0px;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0;*/
+  display: none;
+}
+
+.active_input {
+  display: block;
+  opacity: 1;
+  margin: 5% 5%;
+  padding: 10px 0px;
+  height: 5px;
+}
+
 .loginbox {
   position: relative;
 
@@ -100,15 +125,6 @@
 
 }
 
-input {
-  position: relative;
-  width: 90%;
-  border: none;
-  border-bottom: 1px solid #cf6766;
-  background-color: transparent;
-  font-size: 1.2em;
-  line-height: 3em;
-}
 
 footer {
   position: absolute;
