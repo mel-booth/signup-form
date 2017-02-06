@@ -67,6 +67,22 @@
   color: #cf6766;
 }
 
+.underline {
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: white;
+  height: 1px;
+}
+
+.active .underline {
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: #cf6766;
+  height: 1px;
+}
+
 .inputs-container {
   position: relative;
   float: left;
