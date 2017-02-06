@@ -55,10 +55,10 @@
 
 .tabs > li > a {
   text-decoration: none;
-  font-size: 3em;
+  font-size: 2.5em;
   color: #8eaebd;
   line-height: 3em;
-  padding: 15px;
+  padding: 10px;
   display: block;
   /*transition: all 0.5s;*/
 }
@@ -71,7 +71,7 @@
   position: relative;
   width: 100%;
   float: left;
-  background-color: white;
+  background-color: #8eaebd;
   height: 1px;
 }
 
@@ -115,6 +115,27 @@
   height: 5px;
 }
 
+.form-input:focus {
+  border-bottom: 1px solid #8eaebd;
+}
+
+.inputs-container > input:nth-child(1){
+  transition-delay: 0.2s;
+}
+
+.inputs-container > input:nth-child(2){
+  transition-delay: 0.4s;
+}
+
+.inputs-container > input:nth-child(3){
+  transition-delay: 0.6s;
+}
+
+.btn-container {
+  position: relative;
+  float: left;
+}
+
 .loginbox {
   position: relative;
 
@@ -123,6 +144,11 @@
 .signupbox {
   position: relative;
 
+}
+
+form {
+  margin: 2%;
+  width: 90%;
 }
 
 
